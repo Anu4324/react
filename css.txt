@@ -1,0 +1,254 @@
+/* Reset + Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-image: url("../images/bg01.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    height: 100vh;
+}
+
+/* Login Card Container */
+.card {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 25px 20px;
+    border-radius: 16px;
+    border: none;
+    backdrop-filter: blur(10px);
+}
+
+/* Header */
+.card-header h3 {
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+/* Remove default card header bg/border */
+.bg-none {
+    background: none !important;
+    border-bottom: none !important;
+}
+
+/* Form Styling */
+.form-group label {
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 6px;
+}
+
+.form-control {
+    border-radius: 50px !important;
+    padding: 12px 16px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-control:focus {
+    border-color: #ff7f2a;
+    box-shadow: 0 0 5px rgba(255, 127, 42, 0.5);
+    outline: none;
+}
+
+/* OTP Button */
+.btn-primary {
+    background-color: #ff7f2a;
+    color: white;
+    width: 50%;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 50px !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e96b00;
+}
+
+/* Note Text */
+.note {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.note a {
+    color: #ff7f2a;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.note a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.dashboard-container {
+    background: linear-gradient(to bottom, #ffe9c5, #ffcc80);
+    padding: 40px 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Welcome Section */
+.welcome-box {
+    margin-bottom: 20px;
+}
+
+.welcome-text {
+
+    display: inline-block;
+    padding: 4px 10px;
+    color: #d10000;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.owner-name {
+    background-color: #b30000;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Date Picker */
+.date-picker-box {
+    margin: 20px 0;
+}
+
+.date-input {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 8px 16px;
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Ticket Display */
+.ticket-number-box {
+    background-image: url('/Ticket.png');
+    /* Adjust the path if needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+
+}
+
+/* Buttons Section */
+.button-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.circle-button {
+    background-image: url("../images/Group.png");
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.circle-button:hover {
+    background-color: #d10000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer (Optional) */
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer a {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.border-top {
+    border-top: 1px solid #ffc107;
+}
+
+.footer-bg {
+    backdrop-filter: blur(5px);
+}
